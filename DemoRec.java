@@ -9,8 +9,8 @@ public class DemoRec {
 
     public static double subset(int[] arr) {
         double v1 = 1.4;  //端口p1(门限5000，成本1.4)
-        double v2 = 1.7;  //端口p1(门限6000，成本1.7)
-        double v3 = 1.8;  //端口p1(门限8000，成本1.8)
+        double v2 = 1.7;  //端口p2(门限6000，成本1.7)
+        double v3 = 1.8;  //端口p3(门限8000，成本1.8)
 
         if (arr.length == 1) {
             if (arr[0] <= 5) {
